@@ -1,0 +1,49 @@
+*{
+    font-family: 'Cambria';
+}
+
+.pdf_tabla td, .pdf_tabla th, .tabla_combrobante_web td, .tabla_combrobante_web th, .email_tabla td, .email_tabla th{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Cambria';
+}
+
+.pdf_tabla th, .tabla_combrobante_web th, .email_tabla th{
+    font-weight:bold;
+    border-radius: 7px; 
+}
+
+h2{
+    text-align: center;
+    display: flex;
+    margin-top: -58px;
+    margin-left: 0;
+    
+}
+
+.cm{
+    display: flex;
+    float: center;
+    margin-top: -20px;
+    margin-left: 0;
+}
+
+.pdf_tabla{
+    font-family: 'Cambria';
+    border: 3px solid #C71C1C;
+    border-radius: 10px;
+}
+
+tbody, tr, td, thead, th{
+    padding: 3px 15px;
+    margin: 3px 3px;
+    border: 3px solid #C71C1C;
+    border-radius: 7px; 
+    text-align: center;
+}
+
+th{
+    background: #C71C1C;
+    color: #fff;
+}
